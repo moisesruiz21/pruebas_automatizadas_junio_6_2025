@@ -1,0 +1,26 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "testlogin":"npx playwright test --grep @login",
+    "testloginfail":"npx playwright test --grep @loginFail",
+    "testcheckout":"npx playwright test --grep @checkout",
+    "testfillinfo":"npx playwright test --grep @check-info",
+    "testoverview": "npx playwright test --grep @Overview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}

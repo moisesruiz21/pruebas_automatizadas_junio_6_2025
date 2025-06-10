@@ -1,0 +1,14 @@
+{
+    "username": {
+        "valid" : "standard_user",
+        "invalid": "standard_user1"
+    },
+    "password":{
+        "invalid":"passwlrd"
+    },
+    "userInformation": {
+        "userName":"JOSE LUIS",
+        "lastName":"Vazquez",
+        "postalCode":"12345"
+    }
+}
